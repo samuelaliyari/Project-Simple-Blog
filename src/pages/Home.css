@@ -1,6 +1,6 @@
 .home nav {
     background: transparent;
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px) brightness(50%);
 }
 
 .home {
@@ -41,5 +41,6 @@
 
 .home article div a:hover {
     backdrop-filter: blur(24px);
-    background-color: #09090985;
+    background-color: #090909c5;
+    color: rgb(255, 157, 0);
 }

@@ -42,4 +42,5 @@
 .post a:hover {
     backdrop-filter: blur(24px);
     background-color: #09090985;
+    color: rgb(255, 171, 36);
 }
