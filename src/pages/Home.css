@@ -1,0 +1,46 @@
+.home nav {
+    background: transparent;
+    backdrop-filter: blur(16px);
+}
+
+.home {
+    background: url(../assets/img/hero.jpeg) top / cover no-repeat;
+    height: 100vh;
+}
+
+
+.home article {
+    padding: 15%;
+}
+
+.home article div {
+    background: transparent;
+    backdrop-filter: blur(18px);
+    width: 50%;
+    font-family: poppin_M;
+    color: #e7e7e7;
+    border-radius: 1rem;
+    aspect-ratio: 3/2;
+    padding: 10% 4%;
+}
+
+.home article div h2 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+
+.home article div a {
+    border: 1px solid #e7e7e7;
+    padding: 2%;
+    margin-left: 6%;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    transition: all 400ms linear;
+}
+
+.home article div a:hover {
+    backdrop-filter: blur(24px);
+    background-color: #09090985;
+}

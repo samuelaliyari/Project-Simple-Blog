@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: poppin_B;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppin_SB;
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppin_M;
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppin_R;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppin_L;
+    src: url(./assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppin_T;
+    src: url(./assets/fonts/Poppins-Thin.ttf);
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background: url(../src/assets/img/backgroundabstract.jpeg) center / cover no-repeat;
+  min-height: 100vh;
+}

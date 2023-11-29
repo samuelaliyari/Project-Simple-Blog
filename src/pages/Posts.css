@@ -1,0 +1,36 @@
+.posts {
+    background: transparent;
+    width: 70%;
+    padding: 2%;
+    margin: 2rem auto;
+    backdrop-filter: blur(24px) brightness(1.5);
+    border-radius: 1rem;
+    color: aliceblue;
+    font-family: poppin_M;
+}
+
+.posts img{
+    width: 80%;
+    aspect-ratio: 3/2;
+    margin: 1rem auto;
+    border-radius: 0.8rem;
+}
+
+.posts div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.posts > p:nth-of-type(1){
+    width: 80%;
+    margin: 2rem auto;
+
+}
+.posts > p:nth-of-type(2){
+
+    float: right;
+}
