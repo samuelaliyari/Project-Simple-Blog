@@ -5,12 +5,11 @@
 
 .home {
     background: url(../assets/img/hero.jpeg) top / cover no-repeat;
-    height: 100vh;
 }
 
 
 .home article {
-    padding: 15%;
+    padding: 10rem;
 }
 
 .home article div {
