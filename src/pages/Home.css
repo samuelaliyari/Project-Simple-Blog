@@ -5,6 +5,7 @@
 
 .home {
     background: url(../assets/img/hero.jpeg) top / cover no-repeat;
+    min-height: 100vh;
 }
 
 
